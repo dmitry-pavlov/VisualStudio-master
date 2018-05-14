@@ -12,4 +12,9 @@ namespace GitHub.VisualStudio
     public class AssemblyResolverPackage : AsyncPackage
     {
     }
+
+    public void AddTestMethod()
+    {
+
+    }
 }
