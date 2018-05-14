@@ -6,7 +6,6 @@ using System.Web;
 using GitHub.Api;
 using GitHub.Extensions;
 using Rothko;
-using static System.FormattableString;
 
 namespace GitHub.Services
 {
@@ -38,7 +37,7 @@ namespace GitHub.Services
             httpListener.Prefixes.Add(CallbackUrl);
         }
 
-        public readonly static string CallbackUrl = Invariant($"http://localhost:{CallbackPort}/");
+        public readonly static string CallbackUrl = $"http://localhost:"+CallbackPort+"/";
 
         public async Task<string> Listen(string id, CancellationToken cancel)
         {

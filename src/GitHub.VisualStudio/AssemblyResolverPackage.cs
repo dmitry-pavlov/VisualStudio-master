@@ -12,4 +12,6 @@ namespace GitHub.VisualStudio
     public class AssemblyResolverPackage : AsyncPackage
     {
     }
+
+  
 }

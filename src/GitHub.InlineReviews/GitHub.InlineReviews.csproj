@@ -151,18 +151,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\submodules\octokit.net\Octokit\Octokit.csproj">
-      <Project>{08dd4305-7787-4823-a53f-4d0f725a07f3}</Project>
-      <Name>Octokit</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\submodules\reactiveui\ReactiveUI\ReactiveUI_Net45.csproj">
-      <Project>{1CE2D235-8072-4649-BA5A-CFB1AF8776E0}</Project>
-      <Name>ReactiveUI_Net45</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\submodules\splat\Splat\Splat-Net45.csproj">
-      <Project>{252ce1c2-027a-4445-a3c2-e4d6c80a935a}</Project>
-      <Name>Splat-Net45</Name>
-    </ProjectReference>
     <ProjectReference Include="..\GitHub.Api\GitHub.Api.csproj">
       <Project>{b389adaf-62cc-486e-85b4-2d8b078df763}</Project>
       <Name>GitHub.Api</Name>
@@ -355,6 +343,9 @@
       <HintPath>..\..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Octokit">
+      <HintPath>C:\Users\zhenyuqiao\Desktop\Octokit.dll</HintPath>
+    </Reference>
     <Reference Include="Octokit.GraphQL, Version=0.0.2.0, Culture=neutral, PublicKeyToken=0be8860aee462442, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Octokit.GraphQL.0.0.2-alpha\lib\netstandard1.1\Octokit.GraphQL.dll</HintPath>
       <Private>True</Private>
@@ -365,9 +356,15 @@
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
+    <Reference Include="ReactiveUI">
+      <HintPath>C:\Users\zhenyuqiao\Desktop\ReactiveUI.dll</HintPath>
+    </Reference>
     <Reference Include="Serilog, Version=2.0.0.0, Culture=neutral, PublicKeyToken=24c2f752a8e58a10, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Serilog.2.5.0\lib\net46\Serilog.dll</HintPath>
       <Private>True</Private>
+    </Reference>
+    <Reference Include="Splat">
+      <HintPath>C:\Users\zhenyuqiao\Desktop\Splat.dll</HintPath>
     </Reference>
     <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
       <EmbedInteropTypes>False</EmbedInteropTypes>

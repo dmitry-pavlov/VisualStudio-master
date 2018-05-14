@@ -1,47 +1,16 @@
-﻿// This is an automatically generated file, based on settings.json and PackageSettingsGen.tt
-/* settings.json content:
-{
-  "settings": [
-    {
-      "name": "CollectMetrics",
-      "type": "bool",
-      "default": 'true'
-    },
-    {
-      "name": "EditorComments",
-      "type": "bool",
-      "default": "false"
-    },
-    {
-      "name": "ForkButton",
-      "type": "bool",
-      "default": "false"
-    },
-    {
-      "name": "UIState",
-      "type": "object",
-      "typename": "UIState",
-      "default": "null"
-    },
-    {
-      "name": "HideTeamExplorerWelcomeMessage",
-      "type": "bool",
-      "default": "false"
-    },
-    {
-      "name": "EnableTraceLogging",
-      "type": "bool",
-      "default": "false"
-    }
-  ]
-}
-*/
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
 
 using GitHub.Settings;
 using GitHub.Primitives;
 using GitHub.VisualStudio.Helpers;
 
-namespace GitHub.VisualStudio.Settings {
+namespace GitHub.VisualStudio.Settings
+{
 
     public partial class PackageSettings : NotificationAwareObject, IPackageSettings
     {
@@ -50,42 +19,42 @@ namespace GitHub.VisualStudio.Settings {
         public bool CollectMetrics
         {
             get { return collectMetrics; }
-            set { collectMetrics  = value; this.RaisePropertyChange(); }
+            set { collectMetrics = value; this.RaisePropertyChange(); }
         }
 
         bool editorComments;
         public bool EditorComments
         {
             get { return editorComments; }
-            set { editorComments  = value; this.RaisePropertyChange(); }
+            set { editorComments = value; this.RaisePropertyChange(); }
         }
 
         bool forkButton;
         public bool ForkButton
         {
             get { return forkButton; }
-            set { forkButton  = value; this.RaisePropertyChange(); }
+            set { forkButton = value; this.RaisePropertyChange(); }
         }
 
         UIState uIState;
         public UIState UIState
         {
             get { return uIState; }
-            set { uIState  = value; this.RaisePropertyChange(); }
+            set { uIState = value; this.RaisePropertyChange(); }
         }
 
         bool hideTeamExplorerWelcomeMessage;
         public bool HideTeamExplorerWelcomeMessage
         {
             get { return hideTeamExplorerWelcomeMessage; }
-            set { hideTeamExplorerWelcomeMessage  = value; this.RaisePropertyChange(); }
+            set { hideTeamExplorerWelcomeMessage = value; this.RaisePropertyChange(); }
         }
 
         bool enableTraceLogging;
         public bool EnableTraceLogging
         {
             get { return enableTraceLogging; }
-            set { enableTraceLogging  = value; this.RaisePropertyChange(); }
+            set { enableTraceLogging = value; this.RaisePropertyChange(); }
         }
 
 
