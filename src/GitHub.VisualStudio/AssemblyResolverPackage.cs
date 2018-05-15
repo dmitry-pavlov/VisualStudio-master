@@ -13,5 +13,8 @@ namespace GitHub.VisualStudio
     {
     }
 
-  
+    public void AddTestMethod()
+    {
+
+    }
 }
