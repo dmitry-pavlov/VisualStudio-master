@@ -50,6 +50,9 @@
       <HintPath>..\..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Octokit">
+      <HintPath>C:\Users\zhenyuqiao\Desktop\Octokit.dll</HintPath>
+    </Reference>
     <Reference Include="Octokit.GraphQL, Version=0.0.2.0, Culture=neutral, PublicKeyToken=0be8860aee462442, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Octokit.GraphQL.0.0.2-alpha\lib\netstandard1.1\Octokit.GraphQL.dll</HintPath>
       <Private>True</Private>
@@ -99,10 +102,6 @@
     <Compile Include="SimpleApiClientFactory.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\submodules\octokit.net\Octokit\Octokit.csproj">
-      <Project>{08dd4305-7787-4823-a53f-4d0f725a07f3}</Project>
-      <Name>Octokit</Name>
-    </ProjectReference>
     <ProjectReference Include="..\CredentialManagement\CredentialManagement.csproj">
       <Project>{41a47c5b-c606-45b4-b83c-22b9239e4da0}</Project>
       <Name>CredentialManagement</Name>

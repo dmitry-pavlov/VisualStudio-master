@@ -1,0 +1,4 @@
+F:\vsmaster\VisualStudio-master\src\GitHub.Api\packages.config;F:\vsmaster\VisualStudio-master\.klocwork\GitHubVS\cpp.kwlp\ds\1\sc1vviw5.aeq;1;0;False;2204BCE6C8C68E04131B1C73F0C5A7E6B6384DF9;False
+F:\vsmaster\VisualStudio-master\src\GitHub.App\Images\default_org_avatar.png;;2;0;False;6962BF29A2737D31DEDE020CC4A969361C3D0B3F;False
+F:\vsmaster\VisualStudio-master\src\GitHub.App\Images\default_user_avatar.png;;3;0;False;1827FCCF2EC13B3C477A3499E3F9E083B0EA5FF6;False
+F:\vsmaster\VisualStudio-master\src\GitHub.UI\Controls\HorizontalShadowDivider.xaml;F:\vsmaster\VisualStudio-master\.klocwork\GitHubVS\cpp.kwlp\ds\4\2halgwbx.h2z;4;0;False;D866AF470768F5EEFF68A4CD3A88931F29A6A060;False
