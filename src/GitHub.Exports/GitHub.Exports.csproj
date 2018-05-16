@@ -17,6 +17,7 @@
     <CodeAnalysisIgnoreGeneratedCode>true</CodeAnalysisIgnoreGeneratedCode>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -179,6 +180,7 @@
     <Compile Include="Services\IVisualStudioBrowser.cs" />
     <Compile Include="Models\UsageData.cs" />
     <Compile Include="Services\IUsageService.cs" />
+    <Compile Include="Settings\IPackageSettings.cs" />
     <Compile Include="Settings\PkgCmdID.cs" />
     <Compile Include="ViewModels\GitHubPane\IGitHubPaneViewModel.cs" />
     <Compile Include="ViewModels\IConnectionInitializedViewModel.cs" />
@@ -245,11 +247,6 @@
   <ItemGroup>
     <Compile Include="Extensions\ServiceProviderExtensions.cs" />
     <Compile Include="Services\VSServices.cs" />
-    <Compile Include="Settings\generated\IPackageSettings.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>IPackageSettings.tt</DependentUpon>
-    </Compile>
     <Compile Include="Settings\GitHubConnectSectionState.cs" />
     <Compile Include="Settings\Guids.cs" />
     <Compile Include="Settings\PullRequestDetailUIState.cs" />

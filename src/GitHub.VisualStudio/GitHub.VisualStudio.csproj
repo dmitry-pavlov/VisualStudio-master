@@ -361,11 +361,6 @@
     <Compile Include="Services\ConnectionManager.cs" />
     <Compile Include="Services\Program.cs" />
     <Compile Include="Services\SelectedTextProvider.cs" />
-    <Compile Include="Settings\generated\PackageSettingsGen.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>PackageSettingsGen.tt</DependentUpon>
-    </Compile>
     <Compile Include="Settings\OptionsPage.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -373,6 +368,7 @@
     <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="GitHubPackage.cs" />
     <Compile Include="Services\GitHubServiceProvider.cs" />
+    <Compile Include="Settings\PackageSettingsGen.cs" />
     <Compile Include="UI\GitHubPane.cs" />
     <Compile Include="UI\Settings\OptionsControl.xaml.cs">
       <DependentUpon>OptionsControl.xaml</DependentUpon>
